@@ -1,0 +1,7 @@
+node_modules/
+.next/
+.DS_Store
+
+# Intentionally NOT committing a lockfile: the Next version must stay an
+# unresolved range so the preflight linter can't pin a concrete major.
+package-lock.json
